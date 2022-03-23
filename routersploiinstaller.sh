@@ -1,6 +1,6 @@
 cd /usr/sbin &&
 git clone https://github.com/threat9/routersploit &&
-sudo cd /usr/sbin/routersploit/ &&
+cd /usr/sbin/routersploit/ &&
 python3 -m pip install -r requirements.txt &&
 python3 -m pip install -r requirements.txt &&
 touch /usr/local/bin/routersploit &&
